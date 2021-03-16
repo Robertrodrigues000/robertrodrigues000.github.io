@@ -56,8 +56,6 @@ a::before {
 }
 /*.titulo {
     display: inline-block;
-    font-size: 40px;
-    font-family: "fira code", arial, sans-serif;
     padding: 18px 32px;
     background-color: #0261DB;
     margin-top: 118px;
