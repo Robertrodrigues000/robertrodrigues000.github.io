@@ -1,5 +1,20 @@
 .skill-tec {
-    font-family: "fira code", sans-serif;
+    display: flex;
+    font-family: "Chango", sans-serif;
     font-size: 25px;
     color: #FFF;
+}
+
+.skill-tec .title {
+    font-size: 30px;
+}
+
+.skill-tec .icon {
+    margin-right: 25px;
+}
+
+.skill-tec .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
