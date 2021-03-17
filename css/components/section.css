@@ -8,16 +8,7 @@
 .section .main-title {
     margin-bottom: 60px;
 }
-/*
-.section img {
-    width: 80.27px;
-    height: 90px;
-}
 
-.section::after {
-    content: "aaaaaaaaaa";
-    color: white;
-    width: 60px;
-    height: 40px;
-    border: 5px solid black;
-}*/
+.section.-second {
+    background-color: #022DF9;
+}
