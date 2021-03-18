@@ -6,7 +6,7 @@
     background-size: 100%;
     border-bottom: 10px solid black;  
     padding-top: 115px;
-    padding-left: 90px;  
+    padding-left: 70px;  
 }
 
 .main-banner .wrapper {
@@ -16,7 +16,7 @@
 
 }
 
-.main-banner .box {
+.main-banner .main-box {
     margin-bottom: 40px;
 }
 
