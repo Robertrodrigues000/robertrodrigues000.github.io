@@ -1,4 +1,4 @@
-.action {
+.main-action {
     display: inline-flex;
     align-items: center;
     text-decoration: none;
@@ -7,7 +7,7 @@
     font-size: 20px;
 }
 
-.action::before { 
+.main-action::before { 
     content: "";
     background-color: #02D3DB;
     width: 10px;
