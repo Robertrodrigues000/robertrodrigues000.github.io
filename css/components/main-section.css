@@ -9,6 +9,10 @@
     margin-bottom: 60px;
 }
 
-.main-section.-bgAzul {
+.main-section.-bgBlue {
     background-color: #022DF9;
+}
+
+.main-section.-bgGreen {
+    background-color: #02F9BD;
 }
