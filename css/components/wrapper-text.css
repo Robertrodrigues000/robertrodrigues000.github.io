@@ -1,0 +1,10 @@
+.wrapper-text {
+    display: flex;
+    text-align: justify;
+    padding: 0 80px;  
+    font-weight: 400;
+    font-size: 20px;
+    align-items: flex-end;
+    line-height: 25px;
+}
+
