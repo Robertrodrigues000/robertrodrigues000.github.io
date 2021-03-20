@@ -10,7 +10,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Chango&family=Fira+Code:wght@300;400;600&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/components/main-subtitle.css">
     <link rel="stylesheet" href="css/components/main-box.css">
     <link rel="stylesheet" href="css/components/main-button.css">
@@ -27,6 +26,7 @@
     <link rel="stylesheet" href="css/components/wrapper-text.css">
     <link rel="stylesheet" href="css/components/button-arrow.css">
     <link rel="stylesheet" href="css/components/node-card.css">
+    <link rel="stylesheet" href="css/components/main-carousel.css">
 
 </head>
 <body>
@@ -159,51 +159,46 @@
     <section class="main-section -bgGreen">
         <h2 class="main-title -second">Sobre</h2>
         
-        <button class="button-arrow -left"><span class="content">Esquerda</span></button>
-        
-        <figure class="node-card">
-            <figcaption class="title">2012</figcaption>
-            <div class="logo">
-                <img src="assets/img/logo-locaweb.png" alt="logo da locaweb">
+        <section class="main-carousel">
+            <button class="button-arrow -left"><span class="content">Esquerda</span></button>
+            
+            <div class="items">
+                <div class="elements">
+                    <figure class="node-card">
+                        <figcaption class="title">2012</figcaption>
+                        <div class="logo">
+                            <img src="assets/img/logo-locaweb.png" alt="logo da locaweb">
+                        </div>
+                    </figure>
+                    <figure class="node-card -first">
+                        <figcaption class="title">2016</figcaption>
+                        <div class="logo">
+                            <img src="assets/img/logo-getninjas.png" alt="logo da getninjas">
+                        </div>
+                    </figure>
+                    <figure class="node-card -clean">
+                        <figcaption class="title">2017</figcaption>
+                        <div class="logo">
+                            <img src="assets/img/logo-caelum.png" alt="logo da caelum">
+                        </div>
+                    </figure>
+                    <figure class="node-card">
+                        <figcaption class="title">2018</figcaption>
+                        <div class="logo">
+                            <img src="assets/img/logo-impulso.png" alt="logo da impulso">
+                        </div>
+                    </figure>
+                    <figure class="node-card -first">
+                        <figcaption class="title">2018</figcaption>
+                        <div class="logo">
+                            <img src="assets/img/logo-collabcode.png" alt="logo da collabcod">
+                        </div>
+                    </figure>
+                </div>
             </div>
-        </figure>
-
-        <figure class="node-card -clean">
-            <figcaption class="title">2014</figcaption>
-            <div class="logo">
-                <img src="assets/img/logo-caelum.png" alt="logo da caelum">
-            </div>
-        </figure>
-
-        <figure class="node-card -first">
-            <figcaption class="title">2016</figcaption>
-            <div class="logo">
-                <img src="assets/img/logo-getninjas.png" alt="logo da getninjas">
-            </div>
-        </figure>
-
-        <figure class="node-card -clean">
-            <figcaption class="title">2017</figcaption>
-            <div class="logo">
-                <img src="assets/img/logo-caelum.png" alt="logo da caelum">
-            </div>
-        </figure>
-
-        <figure class="node-card">
-            <figcaption class="title">2018</figcaption>
-            <div class="logo">
-                <img src="assets/img/logo-impulso.png" alt="logo da impulso">
-            </div>
-        </figure>
-
-        <figure class="node-card -first">
-            <figcaption class="title">2018</figcaption>
-            <div class="logo">
-                <img src="assets/img/logo-collabcode.png" alt="logo da collabcod">
-            </div>
-        </figure>
-        
-        <button class="button-arrow -right"><span class="content">Direita</span></button>
+            
+            <button class="button-arrow -right"><span class="content">Direita</span></button>
+        </section>
         
         <p class="wrapper-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus voluptatem exercitationem voluptate laboriosam molestias cupiditate, rem hic natus vel dolorem quia ullam nulla adipisci, tempora sed quis corrupti quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur fuga accusantium voluptate deserunt assumenda? Ea cupiditate possimus vitae dolores eaque ipsa consequatur, cumque alias fugit nam odit dolorem, iusto dolorum.
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid tempore distinctio repudiandae debitis nulla! Quibusdam dolorem deleniti pariatur ratione perferendis velit, recusandae veniam voluptatibus dolor, saepe ducimus ut unde repudiandae.
@@ -213,5 +208,7 @@
     <section class="main-section">
         <h2 class="main-title -second">Contato</h2>
     </section>
+
+    <script src="js/components/main-carousel.js"></script>
 </body>
 </html>
