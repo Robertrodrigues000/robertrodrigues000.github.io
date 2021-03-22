@@ -14,3 +14,8 @@
 .main-button:hover {
     background-color: #022bf95b;
     transform: scale(1.05);
+}
+
+.main-button.-full {
+    width: 100%;
+}
