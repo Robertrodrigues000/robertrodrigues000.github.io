@@ -37,5 +37,5 @@
 .main-carousel .elements {
     display: flex;
     justify-content: space-around;
-    transition: transform 100ms linear;
+    transition: transform 80ms linear;
 }
