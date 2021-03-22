@@ -1,0 +1,21 @@
+.wrapper-email {
+    padding: 0 80px;    
+}
+
+.wrapper-email .name {
+    width: 100%;
+    margin-bottom: 20px;
+   }
+
+.wrapper-email .msg {
+ height: 120px;
+ width: 100%;
+ margin-bottom: 20px;
+}
+
+.wrapper-email .main-button {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px;
+}
+
