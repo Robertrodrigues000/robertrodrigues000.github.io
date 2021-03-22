@@ -5,17 +5,22 @@
     border-radius: 5px;
     padding: 18px 20px ;
     margin-right: 0;
-    transition: transform 150ms cubic-bezier(.45,.97,.68,2.48) ;
+    transition: transform 150ms cubic-bezier(.45,.97,.68,1.80) ;
     font-size: 20px;
     text-decoration: none ;
     color: black;
+    cursor: pointer;
 }
 
 .main-button:hover {
-    background-color: #022bf95b;
+    background-color: #022bf9a2;
     transform: scale(1.05);
 }
 
 .main-button.-full {
     width: 100%;
+}
+
+,.main-button.-full:hover {
+    transform: scale(1.01)
 }
